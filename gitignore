@@ -1,0 +1,30 @@
+# Ignorar arquivos e pastas gerados pelo Robot Framework
+log.html
+report.html
+output.xml
+interactive_console_output.xml
+selenium-screenshot-*.png
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+
+# Ignorar drivers de navegador (se armazenados localmente)
+drivers/
+
+# Ignorar pasta de relatórios (se criada)
+reports/
+
+# Ignorar arquivos de ambiente virtual
+venv/
+.env
+
+# Ignorar arquivos de IDEs (ex: VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Ignorar arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+
